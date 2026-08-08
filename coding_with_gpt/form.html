@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+    <h2>Student Registration</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="full_name" placeholder="your full name" required><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required placeholder="your email"><br><br>
+
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" required placeholder="write your password"><br><br>
+    
+    <label for="sex">Gender</label><br>
+
+     <input type="radio" name="gender" value="female" id="female">
+     <label for="female">Female</label><br>
+
+     <input type="radio" name="gender" value="male" id="male">
+     <label for="male">Male</label><br><br>
+
+    <label for="Language">programming Language</label><br>
+
+    <input type="checkbox" name="language" value="html">
+    <label for="html">HTML</label><br>
+
+    <input type="checkbox" name="language" value="css">
+    <label for="css">CSS</label><br>
+
+    <input type="checkbox" name="language" value="javascript">
+    <label for="javascript">JavaScript</label><br>
+
+    <input type="checkbox" name="language" value="python">
+    <label for="python">Python</label><br><br>
+
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="ethiopia">Ethiopia</option>
+        <option value="england">England</option>
+        <option value="usa">USA</option>
+        <option sudan>Sudan</option>
+    </select><br><br>
+
+    <label for="bio">Bio</label>
+    <textarea name="bio" id="bio" rows="3" cols="20"></textarea><br><br>
+
+    <button>Register</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sticky Test</title>
+
+<style>
+body{
+    margin:0;
+}
+
+nav{
+    position: sticky;
+    top:0;
+
+    background: blue;
+    padding:20px;
+
+    display:flex;
+    gap:20px;
+
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    height:1500px;
+    background:lightgreen;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Gallery</a>
+</nav>
+
+<section>
+    Scroll down...
+</section>
+
+</body>
+</html>
